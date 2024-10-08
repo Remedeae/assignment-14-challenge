@@ -81,6 +81,10 @@ body {
   height: auto;
 }
 
+body > * {
+  margin-top: -1px;
+}
+
 h1, h2, h5 {
   font-weight: 700;
   text-transform: uppercase;
@@ -280,6 +284,73 @@ li a {
   font-size: 14px;
   font-family: "Aleo", serif;
   text-transform: uppercase;
+}
+
+.booking-steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1773px;
+  width: 100%;
+  min-height: 340px;
+  background-color: #333333;
+  background-position: 50% 25%;
+  background-image: url(../images/Arches.png);
+  background-repeat: no-repeat;
+}
+.booking-steps > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1046px;
+  width: 100%;
+  min-height: 176px;
+}
+.booking-steps__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 353px;
+  width: 100%;
+  min-height: 163px;
+}
+.booking-steps__item h3 {
+  font-size: 36px;
+  font-family: "Aleo", serif;
+}
+.booking-steps__item i {
+  font-size: 90px;
+  background-color: #333333;
+  padding: 15px;
+  padding-bottom: 25px;
+}
+.booking-steps__item .fa-magnifying-glass {
+  color: #5474FD;
+}
+.booking-steps__item .fa-circle-check {
+  color: #FF6363;
+}
+.booking-steps__item .fa-thumbs-up {
+  color: #00A2FF;
 }
 
 .explore {
@@ -568,7 +639,6 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: -1px;
   max-width: 1773px;
   width: 100%;
   min-height: 271px;

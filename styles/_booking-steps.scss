@@ -1,0 +1,49 @@
+.booking-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $body-width;
+    width: 100%;
+    min-height: 340px;
+    background-color: $color-grey;
+    background-position: 50% 25%;
+    background-image: url(../images/Arches.png);
+    background-repeat: no-repeat;
+    > div {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1046px;
+        width: 100%;
+        min-height: 176px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        max-width: 353px;
+        width: 100%;
+        min-height: 163px;
+        h3 {
+            font-size: 36px;
+            font-family: $font-detail;
+        }
+        i {
+            font-size: 90px;
+            background-color: $color-grey;
+            padding: 15px;
+            padding-bottom: 25px;
+        }
+        .fa-magnifying-glass {
+            color: $color-main;
+        }
+        .fa-circle-check {
+            color: #FF6363;
+        }
+        .fa-thumbs-up {
+            color: #00A2FF;
+        }
+    }
+
+
+}

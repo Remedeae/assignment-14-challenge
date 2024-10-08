@@ -19,6 +19,9 @@ body {
     width: 100%;
     height: auto;
 }
+body > * {
+    margin-top: -1px;
+}
 h1, h2, h5 {
     font-weight: 700;
     text-transform: uppercase;
@@ -58,6 +61,7 @@ button {
 
 @import 'header';
 @import 'nav';
+@import 'booking-steps';
 @import 'explore';
 @import 'spain1';
 @import 'spain2';
