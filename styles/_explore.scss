@@ -1,0 +1,54 @@
+.explore {
+    display: flex;
+    justify-content: center;
+    & > div {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1112px;
+        width: 100%;
+        min-height: 450px;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: $body-width;
+    width: 100%;
+    min-height: 685px;
+    background-image: url(../images/explore_background.png);
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 570px;
+        width: 100%;
+        min-height: 400px;
+        padding-top: 30px;
+
+        h3 {
+            padding-bottom: 30px;
+        }
+        p {
+            letter-spacing: 1.6px;
+        }
+    }
+    &__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 440px;
+        width: 100%;
+        min-height: 450px;
+
+        & img {
+            max-width: 350px;
+            width: 100%;
+            height: auto;
+        }
+
+        & img:last-child {
+            align-self: end;
+        }
+    }
+}
+

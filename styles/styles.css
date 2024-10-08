@@ -54,3 +54,308 @@ body, html {
   height: 100%;
   scroll-behavior: smooth;
 }
+
+* {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1773px;
+  width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 36px;
+  font-family: "Aleo", serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #e3a68a;
+}
+
+button {
+  max-width: 228px;
+  width: 100%;
+  min-height: 63px;
+  background: linear-gradient(45deg, #496BFE 38%, #5474FD 20%);
+  border: none;
+  font-family: "Aleo", serif;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+button:hover {
+  background: linear-gradient(45deg, #964520 38%, #be6942 20%);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1773px;
+  width: 100%;
+  min-height: 821px;
+  background-image: url(../images/header_background.png);
+  font-size: 14px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 653px;
+  width: 100%;
+  min-height: 341px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 4.8px;
+}
+
+.header > p {
+  margin-top: -30px;
+  font-size: 22px;
+  letter-spacing: 6.8px;
+}
+
+:-moz-placeholder-shown {
+  color: #999999;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  color: #999999;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  text-align: center;
+}
+
+:placeholder-shown, input {
+  color: #999999;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  text-align: center;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 653px;
+  width: 100%;
+  min-height: 64px;
+  background-color: white;
+}
+form input {
+  max-width: 503px;
+  width: 100%;
+  min-height: 64px;
+  border: none;
+  font-size: 20px;
+}
+form button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1px;
+  margin-right: 2px;
+  max-width: 150px;
+  width: 100%;
+  min-height: 60px;
+  background: #5474FD;
+}
+form button p {
+  padding-left: 20px;
+  font-size: 14px;
+  font-family: "Aleo", serif;
+  letter-spacing: 1.4px;
+}
+form button i {
+  font-size: 24px;
+  padding-left: 10px;
+}
+form button:hover, form button :hover {
+  background: #be6942;
+}
+
+.header > div {
+  margin-top: 40px;
+  letter-spacing: 2.8px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1773px;
+  width: 100%;
+  min-height: 84px;
+  background-color: #5474FD;
+}
+
+h2 {
+  font-size: 24px;
+  letter-spacing: 2.4px;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 525px;
+  width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+li a {
+  font-size: 14px;
+  font-family: "Aleo", serif;
+  text-transform: uppercase;
+}
+
+.explore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1773px;
+  width: 100%;
+  min-height: 685px;
+  background-image: url(../images/explore_background.png);
+}
+.explore > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1112px;
+  width: 100%;
+  min-height: 450px;
+}
+.explore__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 570px;
+  width: 100%;
+  min-height: 400px;
+  padding-top: 30px;
+}
+.explore__text h3 {
+  padding-bottom: 30px;
+}
+.explore__text p {
+  letter-spacing: 1.6px;
+}
+.explore__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 440px;
+  width: 100%;
+  min-height: 450px;
+}
+.explore__img img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+}
+.explore__img img:last-child {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.spain1 {
+  max-width: 1773px;
+  width: 100%;
+  min-height: 700px;
+  background-image: url(../images/spain1_background.png);
+}
