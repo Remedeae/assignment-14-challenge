@@ -1,0 +1,44 @@
+.tourist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: $body-width;
+    width: 100%;
+    min-height: 731px;
+    background-image: url(../images/tourist_background.png);
+
+
+    & > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1110px;
+        width: 100%;
+        min-height: 404px;
+    }
+    &__text {
+        display: flex;
+        max-width: 1110px;
+        width: 100%;
+        min-height: 287px;
+        background-color: $color-grey;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 2% 0 6%;
+
+        }
+        h4 {
+            align-self: flex-start;
+        }
+        i {
+            color: $color-main;
+            font-size: 40px;
+        }
+
+    }
+}

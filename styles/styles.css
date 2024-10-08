@@ -81,14 +81,24 @@ body {
   height: auto;
 }
 
-h1, h2 {
+h1, h2, h5 {
   font-weight: 700;
   text-transform: uppercase;
+}
+
+h2 {
+  font-size: 24px;
+  letter-spacing: 2.4px;
 }
 
 h3 {
   font-size: 36px;
   font-family: "Aleo", serif;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 3.6px;
 }
 
 a {
@@ -251,11 +261,6 @@ nav {
   background-color: #5474FD;
 }
 
-h2 {
-  font-size: 24px;
-  letter-spacing: 2.4px;
-}
-
 ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -353,9 +358,269 @@ li a {
       align-self: end;
 }
 
-.spain1 {
+.book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 1773px;
   width: 100%;
   min-height: 700px;
+}
+
+.spain1 {
   background-image: url(../images/spain1_background.png);
+}
+
+.book > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  max-width: 1200px;
+  width: 100%;
+  min-height: 500px;
+}
+
+.spain-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px;
+  max-width: 543px;
+  width: 100%;
+  height: 374px;
+  background: rgba(35, 35, 35, 0.9019607843);
+}
+
+h6 {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1773px;
+  width: 100%;
+  min-height: 700px;
+}
+
+.spain1 {
+  background-image: url(../images/spain1_background.png);
+}
+
+.book > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  max-width: 1200px;
+  width: 100%;
+  min-height: 500px;
+}
+
+.spain-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px;
+  max-width: 543px;
+  width: 100%;
+  height: 374px;
+  background: rgba(35, 35, 35, 0.9019607843);
+}
+
+h6 {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.spain2 {
+  background-image: url(../images/spain2_background.png);
+}
+
+.spain-info_2 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.tourist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1773px;
+  width: 100%;
+  min-height: 731px;
+  background-image: url(../images/tourist_background.png);
+}
+.tourist > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1110px;
+  width: 100%;
+  min-height: 404px;
+}
+.tourist__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1110px;
+  width: 100%;
+  min-height: 287px;
+  background-color: #333333;
+}
+.tourist__text div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2% 0 6%;
+}
+.tourist__text h4 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+.tourist__text i {
+  color: #5474FD;
+  font-size: 40px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -1px;
+  max-width: 1773px;
+  width: 100%;
+  min-height: 271px;
+  background-color: #232323;
+}
+footer > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 196px;
+  width: 100%;
+  min-height: 165px;
+}
+
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 196px;
+  height: 96px;
+}
+.footer__content p {
+  letter-spacing: 1.6px;
+}
+.footer__content > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: inherit;
+}
+.footer__content .fa-linkedin-in {
+  color: #5474FD;
 }

@@ -19,13 +19,21 @@ body {
     width: 100%;
     height: auto;
 }
-h1, h2 {
+h1, h2, h5 {
     font-weight: 700;
     text-transform: uppercase;
+}
+h2 {
+    font-size: 24px;
+    letter-spacing: 2.4px;
 }
 h3 {
     font-size: 36px;
     font-family: $font-detail;
+}
+h5 {
+    font-size: 24px;
+    letter-spacing: 3.6px;
 }
 a {
     text-decoration: none;
