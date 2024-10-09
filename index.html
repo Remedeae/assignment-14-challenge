@@ -31,17 +31,22 @@
     <nav>
         <h2>Bhromaon</h2>
         <ul>
-            <li>
-                <a href="#">Who we are</a>
+            <li class="nav-icon" onclick="mobileMenu()">
+                <a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
             </li>
             <li>
-                <a href="#">what we do</a>
+                <a href="#" id="who">Who we are</a>
             </li>
             <li>
-                <a href="#">travel with us</a>
+                <a href="#" id="what">what we do</a>
             </li>
             <li>
-                <a href="#">contact us</a>
+                <a href="#" id="travel">travel with us</a>
+            </li>
+            <li>
+                <a href="#" id="contact">contact us</a>
             </li>
         </ul>
     </nav>
@@ -154,5 +159,12 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function mobileMenu() {
+            document.querySelector("ul").classList.toggle("responsive");
+            document.querySelector("nav").classList.toggle("responsive");
+        }
+    </script>
 </body>
 </html>

@@ -14,6 +14,11 @@ ul {
     width: 100%;
     height: auto;
 }
+ul li:first-child {
+    display: none;
+    font-size: 80px;
+    line-height: 0;
+}
 li {
     list-style: none;
     a {
@@ -21,4 +26,40 @@ li {
         font-family: $font-detail;
         text-transform: uppercase;
     }
+}
+
+@media screen and (max-width: $breakpointA){
+    nav {
+        padding: 0 20px;
+    }
+    ul {
+        max-width: 799px;
+        min-height: 80px;
+        align-items: center;
+        li:not(:first-child) {
+            display: none;
+        }
+        li.nav-icon {
+            display: block;
+            padding: 0 20px;
+        }
+    }
+}
+@media screen and (max-width:$breakpointA) {
+    ul.responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        max-width: 800;
+        width: 100%;
+        li:not(:first-child){
+            display: block;
+            width: 100%;
+            height: 80px;
+            background-color: $color-hover;
+            font-size: 40px;
+            line-height: 120%;
+
+    }
+}
 }

@@ -23,7 +23,7 @@
         max-width: 570px;
         width: 100%;
         min-height: 400px;
-        padding-top: 30px;
+        padding: 30px 20px 0 20px;
 
         h3 {
             padding-bottom: 30px;
@@ -52,3 +52,23 @@
     }
 }
 
+@media screen and (max-width:$breakpointB){
+    .explore{
+        background-repeat: no-repeat;
+        margin-bottom: -170px;
+        > div {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__text > a, &__text >h3 {
+            align-self: center;
+        }
+        &__img {
+            align-items: center;
+            padding-top: 20px;
+            img:last-child {
+                display: none;
+            }
+        }
+    }
+}

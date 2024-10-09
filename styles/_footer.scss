@@ -36,3 +36,9 @@ footer {
         color: $color-main;
     }
 }
+
+@media screen and (max-width:$breakpointC){
+    footer {
+        height: 150px;
+    }
+}

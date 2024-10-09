@@ -4,7 +4,7 @@
     align-items: center;
     width: $body-width;
     width: 100%;
-    min-height: 340px;
+    height: 340px;
     background-color: $color-grey;
     background-position: 50% 25%;
     background-image: url(../images/Arches.png);
@@ -24,16 +24,19 @@
         max-width: 353px;
         width: 100%;
         min-height: 163px;
+        text-align: center;
         h3 {
             font-size: 36px;
             font-family: $font-detail;
         }
         i {
+            max-width: 300px;
+            width: 100%;
             font-size: 90px;
             background-color: $color-grey;
-            padding: 15px;
-            padding-bottom: 25px;
+            padding: 5px 0 25px 0;
         }
+
         .fa-magnifying-glass {
             color: $color-main;
         }
@@ -44,6 +47,23 @@
             color: #00A2FF;
         }
     }
+}
 
-
+@media screen and (max-width: $breakpointA){
+    .booking-steps__item {
+        max-width: 200px;
+        h3 {
+            min-height: 80px;
+            line-height: 40px;
+        }
+    }
+}
+@media screen and (max-width: $breakpointB){
+    .booking-steps {
+        height: 100px;
+        background-position: 50% 0;
+        &__item {
+            display: none;
+        }
+}
 }

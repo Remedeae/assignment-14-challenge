@@ -6,5 +6,10 @@
 
 .spain-info_2 {
     align-self: flex-end;
+}
 
+@media screen and (max-width: $breakpointA) {
+    .spain-info_2 {
+        align-self: center;
+    }
 }
